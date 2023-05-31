@@ -12,6 +12,9 @@ public class Notes02 {
      Stringlerin aynı olup olmadığını kontrol ederken equal() methodu kullanırız, == kullanmayız.
      Çünkü == hem stringlerin adreslerinin hem değerlerinin eşitliği ararken, equals() methodu sadece değerlerin eşitliğini arar
      biz de genelde değerlerin eşit olup olmadığını iseriz bu yüzden equals() methodunu kullanırız.
+
+     Object class javada non-primitive data typların ortak parentıdır.
+     Farklı dta typeların için ortak bir variable oluşturmak istediğimizde data type olarak Object i kullanırız.
      */
 
 }
