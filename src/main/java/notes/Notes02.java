@@ -35,6 +35,19 @@ public class Notes02 {
      Math.max(ma,b);-->a ile b'den buyuk olanı verir.
      Math.abs(a);-->a'nın mutlak değerini verir.
 
+
+
+     In Method Overloading, method name are not changed.
+     In Method Overloading, parameters are changed.
+     Parametreleri değiştirirken, parametrelerin data typeı, sayısı veya data trypeları farklı olan parametlerin yerleri değiştirilerek overloading yapılır.
+     Method name + Method Pameters = Method Signature
+
+     Overloading yapılırken return typeı değiştirmenin, access mod ı değiştirmenin, static veya non-static olmasının veya method body nin değiştirilmesinin bir önemi yoktur.
+
+     Private methodlar overload edilebilir çünkü overloading tek bir classın içinde yapılır, private olmak baska classlara gidildiğinde problem olur.
+
+     Static methodlar overload edilebilir.
+
      */
 
 }
