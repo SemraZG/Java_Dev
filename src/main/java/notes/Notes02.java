@@ -48,6 +48,27 @@ public class Notes02 {
 
      Static methodlar overload edilebilir.
 
+     * Static variable veya static methodlar(class members) tüm objectler için ortak elemandır.
+     * Static class memberlar uerinde yapılan tüm değişiklikler tum objectleri etkiler.
+     * Static class memberlar Class'a, non-static memberlar objectlere monte edilir.
+     * Mesela; bir classdan uz tane object urettiğimizde non-static olanlar da yuz kere olusturulur,
+     ama static olanlar object sayıısndan bagımszı olarak bir kere olusturulurlar.
+     * Static class memberlara ulasmak için o classdan object uretmeye gerek yoktur,
+     ama non-static memberlara ulasmak için o classdan object uretmek zorundayız.
+     * Static variabların diğer adı Class Variable dır,
+     * Non-static variabların diğer adı Instance Variable veya Object Veriable dır.
+     *
+     * Student classdaki stdName variable ı static olduğu için o classdan obje uretmeden,
+         (class ismi . variable ismi(Student.stdName)) ile runner classdan kullanmıs olduk.
+         çünkü staticler classa montedir==>Student.stdName
+
+    * Student classdaki age variable ı non-static olduğu için onu kullanabilmek için,
+      önce student classdan obje olusturduk, sonra o obje uzerinden non-static variableri kullanabildik,
+      çünkü non-staticler class a değil, o clasdan olusturulan objeye montedir==>student.age-->student, Student classdan olusturdugumuz obje.
+
+
+
+
      */
 
 }
